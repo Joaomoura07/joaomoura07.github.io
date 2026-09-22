@@ -4,9 +4,9 @@ tags: [criado-por-ia]
 
 # Portfólio pessoal
 
-Portfólio profissional e acadêmico de **joaomoura**, em português brasileiro. HTML5, CSS3 e JavaScript puro, sem dependências de produção, backend, rastreamento, fontes externas ou etapa de build. Preparado para um repositório pessoal `joaomoura.github.io`.
+Portfólio profissional e acadêmico de **joaomoura**, em português brasileiro. HTML5, CSS3 e JavaScript puro, sem dependências de produção, backend, rastreamento, fontes externas ou etapa de build. Preparado para o repositório pessoal `joaomoura07.github.io`.
 
-O nome exibido é `joaomoura`. A conta GitHub confirmada é [joaomoura](https://github.com/joaomoura), com repositório pessoal `joaomoura.github.io`. Todo o restante é um placeholder explícito: não há experiências, qualificações ou contatos inventados.
+O nome exibido é `joaomoura`. A conta GitHub é [Joaomoura07](https://github.com/Joaomoura07), com repositório pessoal `joaomoura07.github.io`. Todo o restante é um placeholder explícito: não há experiências, qualificações ou contatos inventados.
 
 ## Arquivos
 
@@ -39,7 +39,7 @@ As pastas `projects/`, `assets/icons/` e `assets/images/projects/` não são nec
 No terminal, entre na pasta que contém `index.html`. Depois de clonar o repositório:
 
 ```bash
-cd joaomoura.github.io
+cd joaomoura07.github.io
 python3 -m http.server 8000
 ```
 
@@ -70,7 +70,7 @@ Use a busca global para localizar:
 | `Projeto 01` até `Projeto 06`, `DESCRIÇÃO`, `ANO` | Projetos, resultados e datas |
 | `TECNOLOGIA`, `LINGUAGEM`, `FERRAMENTA` | Somente conhecimentos reais |
 | `NOME DA CERTIFICAÇÃO`, `INSTITUIÇÃO EMISSORA`, `DATA` | Certificações e datas |
-| `joaomoura` | Usuário GitHub já configurado no canonical, Open Graph e Twitter Cards |
+| `joaomoura07` | Usuário GitHub já configurado no canonical, Open Graph e Twitter Cards |
 
 Apague blocos que não se aplicam a você. Não é preciso preencher todas as seções.
 
@@ -133,21 +133,21 @@ Uma futura versão em inglês pode ser criada traduzindo o HTML e mudando `lang`
 Crie um repositório **público e vazio**, sem README, licença ou `.gitignore` gerados pelo GitHub, chamado:
 
 ```text
-joaomoura.github.io
+joaomoura07.github.io
 ```
 
 O nome do repositório corresponde à conta confirmada, em minúsculas. O GitHub Pages está disponível para repositórios públicos no plano gratuito. Não é necessário contratar servidor ou banco de dados.
 
 ### Passo 2 — Enviar somente os arquivos do site
 
-O `<head>` já usa `https://joaomoura.github.io/`. Revise os demais placeholders e execute os comandos apenas na pasta que contém os arquivos do site, para que `index.html` fique na raiz do repositório:
+O `<head>` já usa `https://joaomoura07.github.io/`. Revise os demais placeholders e execute os comandos apenas na pasta que contém os arquivos do site, para que `index.html` fique na raiz do repositório:
 
 ```bash
 git init
 git add .
 git commit -m "Initial portfolio"
 git branch -M main
-git remote add origin https://github.com/joaomoura/joaomoura.github.io.git
+git remote add origin https://github.com/Joaomoura07/joaomoura07.github.io.git
 git push -u origin main
 ```
 
@@ -169,12 +169,12 @@ O `.nojekyll` vazio está incluído para publicar os arquivos estáticos sem pro
 Após a implantação indicada em **Pages** ou **Actions**, o endereço será:
 
 ```text
-https://joaomoura.github.io/
+https://joaomoura07.github.io/
 ```
 
 A atualização pode levar até dez minutos. Confira a página, navegação, tema, currículo, foto, favicons e compartilhamento. A `404.html` da raiz será usada automaticamente pelo GitHub para URLs inexistentes.
 
-Os assets da página principal usam caminhos relativos. A 404 usa caminhos a partir de `/`, apropriados ao site pessoal pedido. Se futuramente publicar em `joaomoura.github.io/outro-repositorio/`, adapte os caminhos da 404 e os metadados para essa subpasta.
+Os assets da página principal usam caminhos relativos. A 404 usa caminhos a partir de `/`, apropriados ao site pessoal pedido. Se futuramente publicar em `joaomoura07.github.io/outro-repositorio/`, adapte os caminhos da 404 e os metadados para essa subpasta.
 
 Documentação oficial: [criar um site](https://docs.github.com/en/pages/getting-started-with-github-pages/creating-a-github-pages-site), [configurar a fonte de publicação](https://docs.github.com/en/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site) e [configurar uma página 404](https://docs.github.com/en/pages/getting-started-with-github-pages/creating-a-custom-404-page-for-your-github-pages-site).
 
@@ -194,7 +194,7 @@ Para usar futuramente um domínio como `meunome.dev`, `meunome.com` ou `meunome.
 
 1. Registre o domínio e verifique a titularidade conforme a orientação do GitHub.
 2. Em **Settings → Pages → Custom domain**, informe o domínio e salve.
-3. Configure o DNS no provedor. Um subdomínio como `www` usa CNAME apontando para `joaomoura.github.io`, sem protocolo ou caminho. Para o domínio raiz, siga os registros A/ALIAS/ANAME atuais da documentação oficial.
+3. Configure o DNS no provedor. Um subdomínio como `www` usa CNAME apontando para `joaomoura07.github.io`, sem protocolo ou caminho. Para o domínio raiz, siga os registros A/ALIAS/ANAME atuais da documentação oficial.
 4. Aguarde a validação e habilite **Enforce HTTPS** quando disponível.
 5. Atualize canonical, `og:url`, `og:image` e `twitter:image` para o domínio novo.
 
