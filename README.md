@@ -29,7 +29,8 @@ portfolio-pessoal/
 │       ├── favicon-32x32.png
 │       └── apple-touch-icon.png
 └── files/
-    └── curriculo.pdf          # PDF válido, identificado como MODELO
+    ├── curriculo-joao-pedro-moura-matos.pdf     # Currículo real (PT)
+    └── resume-joao-pedro-moura-matos-en.pdf     # Resume real (EN)
 ```
 
 As pastas `projects/`, `assets/icons/` e `assets/images/projects/` não são necessárias inicialmente. Crie-as apenas ao adicionar páginas, ícones ou imagens de projetos.
@@ -77,7 +78,7 @@ Apague blocos que não se aplicam a você. Não é preciso preencher todas as se
 ### Foto, currículo e imagem social
 
 - Substitua `assets/images/profile.jpg` por sua foto, de preferência quadrada, com cerca de 480×480 pixels. Mantenha o caminho ou atualize o `src`. Troque o `alt` por `Foto de joaomoura` e remova o `figcaption` de placeholder. O CSS exibe a imagem em 144×144 com `object-fit: cover`.
-- Substitua `files/curriculo.pdf` pelo seu currículo real. O arquivo incluído é um **modelo com placeholders**, não um currículo final. Depois de trocar, altere `PDF · modelo` para `PDF` no link do topo. O PDF abre em nova aba com `rel="noopener noreferrer"`.
+- Currículos reais em `files/`: `curriculo-joao-pedro-moura-matos.pdf` (PT) e `resume-joao-pedro-moura-matos-en.pdf` (EN), linkados no topo. Para atualizar, substitua os arquivos mantendo os nomes. Os PDFs abrem em nova aba com `rel="noopener noreferrer"`.
 - Personalize `assets/images/social-preview.png` (1200×630) e os textos `og:image:alt` e `twitter:image:alt`. Os favicons incluídos usam o monograma `jm`; podem ser substituídos pelos mesmos nomes.
 
 ### Links sociais e contato
