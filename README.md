@@ -21,7 +21,7 @@ portfolio-pessoal/
 ├── .nojekyll                  # Publica os arquivos estáticos sem Jekyll
 ├── assets/
 │   ├── images/
-│   │   ├── profile.jpg        # Placeholder de foto; substitua pela sua
+│   │   ├── profile.jpg        # Foto real (480×480, recortada de ~/Desktop/image.png)
 │   │   └── social-preview.png # Imagem de compartilhamento; personalize
 │   └── favicon/
 │       ├── favicon.svg
@@ -77,7 +77,7 @@ Apague blocos que não se aplicam a você. Não é preciso preencher todas as se
 
 ### Foto, currículo e imagem social
 
-- Substitua `assets/images/profile.jpg` por sua foto, de preferência quadrada, com cerca de 480×480 pixels. Mantenha o caminho ou atualize o `src`. Troque o `alt` por `Foto de joaomoura` e remova o `figcaption` de placeholder. O CSS exibe a imagem em 144×144 com `object-fit: cover`.
+- `assets/images/profile.jpg` é a foto real (quadrada, 480×480). Para trocar, mantenha o caminho e o tamanho. O CSS exibe a imagem em 144×144 com `object-fit: cover`.
 - Currículos reais em `files/`: `curriculo-joao-pedro-moura-matos.pdf` (PT) e `resume-joao-pedro-moura-matos-en.pdf` (EN), linkados no topo. Para atualizar, substitua os arquivos mantendo os nomes. Os PDFs abrem em nova aba com `rel="noopener noreferrer"`.
 - Personalize `assets/images/social-preview.png` (1200×630) e os textos `og:image:alt` e `twitter:image:alt`. Os favicons incluídos usam o monograma `jm`; podem ser substituídos pelos mesmos nomes.
 
